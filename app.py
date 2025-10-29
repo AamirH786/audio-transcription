@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 
 app = FastAPI()
-model = whisper.load_model("tiny")
+model = whisper.load_model("base")
 
 @app.get("/", response_class=HTMLResponse)
 async def home():
