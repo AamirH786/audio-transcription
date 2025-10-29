@@ -1,0 +1,13 @@
+MyEnv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dll
+*.dylib
+*.exe
+uploads/
+*.log
+.env
