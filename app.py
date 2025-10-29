@@ -103,8 +103,6 @@ from sklearn.cluster import AgglomerativeClustering
 
 
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
 
 model = whisper.load_model("base")
 
